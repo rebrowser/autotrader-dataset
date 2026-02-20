@@ -1,0 +1,499 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "listingId",
+    "type": "string",
+    "description": "Unique Autotrader listing ID",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "vin",
+    "type": "string",
+    "description": "Vehicle Identification Number (17-character unique code)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "stockNumber",
+    "type": "string",
+    "description": "Dealer stock number",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "year",
+    "type": "float",
+    "description": "Vehicle model year",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "makeCode",
+    "type": "string",
+    "description": "Make code (e.g., BMW, TOYOTA, GENESIS)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "makeName",
+    "type": "string",
+    "description": "Make display name (e.g., BMW, Toyota, Genesis)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "modelCode",
+    "type": "string",
+    "description": "Model code (e.g., X3, CAMRY, GENGV80)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "modelName",
+    "type": "string",
+    "description": "Model display name (e.g., X3, Camry, GV80)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "trim",
+    "type": "string",
+    "description": "Vehicle trim level (e.g., xDrive30i, 3.5T Prestige)",
+    "fillRate": 96,
+    "premium": false
+  },
+  {
+    "name": "bodyStyle",
+    "type": "string",
+    "description": "Body style (e.g., SUV, Sedan, Truck)",
+    "fillRate": 96,
+    "premium": false
+  },
+  {
+    "name": "listingType",
+    "type": "string",
+    "description": "Listing type (New, Used, Certified)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "listingTitle",
+    "type": "string",
+    "description": "Full listing title (e.g., \"Used 2025 BMW X3 xDrive30i w/ Convenience Package\")",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "mileage",
+    "type": "float",
+    "description": "Odometer reading in miles",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "salePrice",
+    "type": "float",
+    "description": "Listed sale price in USD",
+    "fillRate": 99,
+    "premium": true
+  },
+  {
+    "name": "msrp",
+    "type": "float",
+    "description": "Manufacturer Suggested Retail Price in USD (for New vehicles)",
+    "fillRate": 8,
+    "premium": false
+  },
+  {
+    "name": "dealIndicator",
+    "type": "string",
+    "description": "KBB deal rating (Great, Good, Fair, High, Overpriced)",
+    "fillRate": 67,
+    "premium": false
+  },
+  {
+    "name": "kbbFairPurchasePrice",
+    "type": "float",
+    "description": "KBB Fair Purchase Price estimate in USD",
+    "fillRate": 98,
+    "premium": true
+  },
+  {
+    "name": "kbbFairPriceLow",
+    "type": "float",
+    "description": "KBB Fair Purchase Price low range in USD",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "kbbFairPriceHigh",
+    "type": "float",
+    "description": "KBB Fair Purchase Price high range in USD",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "exteriorColor",
+    "type": "string",
+    "description": "Exterior color name (e.g., Alpine White, Capri Blue)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "exteriorColorSimple",
+    "type": "string",
+    "description": "Simplified exterior color (e.g., WHITE, BLUE, BLACK)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "interiorColor",
+    "type": "string",
+    "description": "Interior color name (e.g., Espresso Brown, Blue)",
+    "fillRate": 96,
+    "premium": false
+  },
+  {
+    "name": "interiorColorSimple",
+    "type": "string",
+    "description": "Simplified interior color (e.g., BROWN, BLUE, BLACK)",
+    "fillRate": 96,
+    "premium": false
+  },
+  {
+    "name": "engineCode",
+    "type": "string",
+    "description": "Engine code (e.g., 4CLDR, 6CLDR)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "engine",
+    "type": "string",
+    "description": "Engine description (e.g., 4-Cylinder Turbo, 6-Cylinder Turbo)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "drivetrain",
+    "type": "string",
+    "description": "Drivetrain type (e.g., All wheel drive, Front-wheel drive)",
+    "fillRate": 89,
+    "premium": false
+  },
+  {
+    "name": "transmissionCode",
+    "type": "string",
+    "description": "Transmission code (e.g., AUT, MAN)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "transmission",
+    "type": "string",
+    "description": "Transmission type (e.g., 8-Speed Automatic)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "transmissionGroup",
+    "type": "string",
+    "description": "Transmission type group (Automatic, Manual)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "fuelTypeCode",
+    "type": "string",
+    "description": "Fuel type code (e.g., G, D, E)",
+    "fillRate": 89,
+    "premium": false
+  },
+  {
+    "name": "fuelType",
+    "type": "string",
+    "description": "Fuel type (e.g., Gasoline, Diesel, Electric)",
+    "fillRate": 89,
+    "premium": false
+  },
+  {
+    "name": "fuelTypeGroup",
+    "type": "string",
+    "description": "Fuel type group (Gas, Diesel, Electric, Hybrid)",
+    "fillRate": 89,
+    "premium": false
+  },
+  {
+    "name": "mpgCity",
+    "type": "float",
+    "description": "City fuel economy in MPG",
+    "fillRate": 80,
+    "premium": false
+  },
+  {
+    "name": "mpgHighway",
+    "type": "float",
+    "description": "Highway fuel economy in MPG",
+    "fillRate": 80,
+    "premium": false
+  },
+  {
+    "name": "displacementUOM",
+    "type": "float",
+    "description": "Engine displacement in liters (e.g., 2.0, 3.5)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "hasLeatherSeats",
+    "type": "bool",
+    "description": "Whether vehicle has leather seats",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "daysOnMarket",
+    "type": "float",
+    "description": "Number of days listing has been on market",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "isHot",
+    "type": "bool",
+    "description": "Hot listing flag (high interest)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isNewlyListed",
+    "type": "bool",
+    "description": "Recently listed flag",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isReducedPrice",
+    "type": "bool",
+    "description": "Price recently reduced flag",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "isNoHagglePrice",
+    "type": "bool",
+    "description": "No-haggle/fixed price flag",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "hasSpecialOffer",
+    "type": "bool",
+    "description": "Has special offer/promotion",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "moneyBackGuarantee",
+    "type": "bool",
+    "description": "Money-back guarantee offered",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "mainImageIsStock",
+    "type": "bool",
+    "description": "Main image is stock photo (not actual vehicle)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "priority",
+    "type": "string",
+    "description": "Listing priority/tier (PREMIUM, STANDARD, BASIC)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerId",
+    "type": "float",
+    "description": "Seller/dealer ID",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerName",
+    "type": "string",
+    "description": "Seller/dealer name",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "sellerPhone",
+    "type": "string",
+    "description": "Seller phone number",
+    "fillRate": 97,
+    "premium": true
+  },
+  {
+    "name": "sellerRating",
+    "type": "float",
+    "description": "Seller KBB rating (1-5 scale)",
+    "fillRate": 96,
+    "premium": true
+  },
+  {
+    "name": "sellerReviewCount",
+    "type": "float",
+    "description": "Number of seller reviews",
+    "fillRate": 96,
+    "premium": false
+  },
+  {
+    "name": "sellerWebsite",
+    "type": "string",
+    "description": "Seller website URL",
+    "fillRate": 96,
+    "premium": true
+  },
+  {
+    "name": "isPrivateSeller",
+    "type": "bool",
+    "description": "Whether seller is a private seller (true) or dealer (false)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerContractLevel",
+    "type": "string",
+    "description": "Seller contract level (PARTNER, STANDARD, etc.)",
+    "fillRate": 96,
+    "premium": false
+  },
+  {
+    "name": "kbbVehicleId",
+    "type": "float",
+    "description": "KBB vehicle ID for price lookup",
+    "fillRate": 94,
+    "premium": false
+  },
+  {
+    "name": "kbbConsumerRatings",
+    "type": "float",
+    "description": "KBB consumer rating (1-5 scale)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "kbbConsumerReviewCount",
+    "type": "float",
+    "description": "Number of KBB consumer reviews",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "safetyRecallCount",
+    "type": "float",
+    "description": "Number of open safety recalls",
+    "fillRate": 89,
+    "premium": false
+  },
+  {
+    "name": "vhrPreview",
+    "type": "string",
+    "description": "Vehicle history report preview flags (JSON array: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER, etc.)",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "options",
+    "type": "string",
+    "description": "Vehicle options object with subcategories: exterior, interior, safety, mechanical, technology, other",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "optionsCount",
+    "type": "float",
+    "description": "Total number of options across all categories",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "description",
+    "type": "string",
+    "description": "Full marketing description text (HTML tags stripped except br)",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "images",
+    "type": "string",
+    "description": "All listing image URLs as JSON array",
+    "fillRate": 99,
+    "premium": true
+  },
+  {
+    "name": "imagesCount",
+    "type": "float",
+    "description": "Number of listing images",
+    "fillRate": 99,
+    "premium": false
+  },
+  {
+    "name": "sellerAddress",
+    "type": "string",
+    "description": "Seller address line 1",
+    "fillRate": 97,
+    "premium": false
+  },
+  {
+    "name": "sellerCity",
+    "type": "string",
+    "description": "Seller city",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerState",
+    "type": "string",
+    "description": "Seller state",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sellerZip",
+    "type": "string",
+    "description": "Seller ZIP code",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "listingUrl",
+    "type": "string",
+    "description": "Full URL to the Autotrader listing page",
+    "fillRate": 100,
+    "premium": true
+  }
+]
