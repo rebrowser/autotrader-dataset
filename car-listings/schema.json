@@ -199,7 +199,7 @@
     "name": "drivetrain",
     "type": "string",
     "description": "Drivetrain type (e.g., All wheel drive, Front-wheel drive)",
-    "fillRate": 89,
+    "fillRate": 90,
     "premium": false
   },
   {
@@ -227,21 +227,21 @@
     "name": "fuelTypeCode",
     "type": "string",
     "description": "Fuel type code (e.g., G, D, E)",
-    "fillRate": 89,
+    "fillRate": 91,
     "premium": false
   },
   {
     "name": "fuelType",
     "type": "string",
     "description": "Fuel type (e.g., Gasoline, Diesel, Electric)",
-    "fillRate": 89,
+    "fillRate": 91,
     "premium": false
   },
   {
     "name": "fuelTypeGroup",
     "type": "string",
     "description": "Fuel type group (Gas, Diesel, Electric, Hybrid)",
-    "fillRate": 89,
+    "fillRate": 91,
     "premium": false
   },
   {
@@ -276,7 +276,7 @@
     "name": "daysOnMarket",
     "type": "float",
     "description": "Number of days listing has been on market",
-    "fillRate": 99,
+    "fillRate": 98,
     "premium": false
   },
   {
@@ -388,7 +388,7 @@
     "name": "sellerContractLevel",
     "type": "string",
     "description": "Seller contract level (PARTNER, STANDARD, etc.)",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": false
   },
   {
