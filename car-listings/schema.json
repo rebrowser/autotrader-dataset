@@ -199,7 +199,7 @@
     "name": "drivetrain",
     "type": "string",
     "description": "Drivetrain type (e.g., All wheel drive, Front-wheel drive)",
-    "fillRate": 91,
+    "fillRate": 92,
     "premium": false
   },
   {
