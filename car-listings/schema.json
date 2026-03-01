@@ -122,7 +122,7 @@
     "name": "msrp",
     "type": "float",
     "description": "Manufacturer Suggested Retail Price in USD (for New vehicles)",
-    "fillRate": 8,
+    "fillRate": 7,
     "premium": false
   },
   {
@@ -227,21 +227,21 @@
     "name": "fuelTypeCode",
     "type": "string",
     "description": "Fuel type code (e.g., G, D, E)",
-    "fillRate": 92,
+    "fillRate": 93,
     "premium": false
   },
   {
     "name": "fuelType",
     "type": "string",
     "description": "Fuel type (e.g., Gasoline, Diesel, Electric)",
-    "fillRate": 92,
+    "fillRate": 93,
     "premium": false
   },
   {
     "name": "fuelTypeGroup",
     "type": "string",
     "description": "Fuel type group (Gas, Diesel, Electric, Hybrid)",
-    "fillRate": 92,
+    "fillRate": 93,
     "premium": false
   },
   {
