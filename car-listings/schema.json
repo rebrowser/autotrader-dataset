@@ -199,7 +199,7 @@
     "name": "drivetrain",
     "type": "string",
     "description": "Drivetrain type (e.g., All wheel drive, Front-wheel drive)",
-    "fillRate": 92,
+    "fillRate": 93,
     "premium": false
   },
   {
@@ -353,21 +353,21 @@
     "name": "sellerPhone",
     "type": "string",
     "description": "Seller phone number",
-    "fillRate": 97,
+    "fillRate": 96,
     "premium": true
   },
   {
     "name": "sellerRating",
     "type": "float",
     "description": "Seller KBB rating (1-5 scale)",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": true
   },
   {
     "name": "sellerReviewCount",
     "type": "float",
     "description": "Number of seller reviews",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
@@ -388,7 +388,7 @@
     "name": "sellerContractLevel",
     "type": "string",
     "description": "Seller contract level (PARTNER, STANDARD, etc.)",
-    "fillRate": 97,
+    "fillRate": 96,
     "premium": false
   },
   {
