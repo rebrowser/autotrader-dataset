@@ -227,21 +227,21 @@
     "name": "fuelTypeCode",
     "type": "string",
     "description": "Fuel type code (e.g., G, D, E)",
-    "fillRate": 93,
+    "fillRate": 94,
     "premium": false
   },
   {
     "name": "fuelType",
     "type": "string",
     "description": "Fuel type (e.g., Gasoline, Diesel, Electric)",
-    "fillRate": 93,
+    "fillRate": 94,
     "premium": false
   },
   {
     "name": "fuelTypeGroup",
     "type": "string",
     "description": "Fuel type group (Gas, Diesel, Electric, Hybrid)",
-    "fillRate": 93,
+    "fillRate": 94,
     "premium": false
   },
   {
@@ -395,7 +395,7 @@
     "name": "kbbVehicleId",
     "type": "float",
     "description": "KBB vehicle ID for price lookup",
-    "fillRate": 94,
+    "fillRate": 95,
     "premium": false
   },
   {
