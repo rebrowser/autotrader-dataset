@@ -276,7 +276,7 @@
     "name": "daysOnMarket",
     "type": "float",
     "description": "Number of days listing has been on market",
-    "fillRate": 98,
+    "fillRate": 99,
     "premium": false
   },
   {
