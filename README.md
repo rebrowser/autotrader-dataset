@@ -1,6 +1,6 @@
 # AutoTrader Vehicle Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--04--21-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-1.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
+![Updated](https://img.shields.io/badge/updated-2026--04--22-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-1.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
 
 New, used, and certified pre-owned vehicle listings from AutoTrader with pricing, KBB valuations, dealer info, drivetrain specs, and listing placement data.
 
@@ -21,7 +21,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 
 
-> **1,425,341** total records from 2025-11-16 to 2026-04-12, **up to 30,000** rows in this sample (2.1% of full dataset).
+> **1,425,342** total records from 2025-11-16 to 2026-04-19, **up to 30,000** rows in this sample (2.1% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](car-listings/chart-growth.svg)
@@ -115,7 +115,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Used | 1,140,932 | `████████████████░░░░` 80.0% |
+| Used | 1,140,933 | `████████████████░░░░` 80.0% |
 | Certified | 177,438 | `██░░░░░░░░░░░░░░░░░░` 12.4% |
 | New | 106,971 | `██░░░░░░░░░░░░░░░░░░` 7.5% |
 
@@ -128,7 +128,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| SUV | 671,409 | `██████████░░░░░░░░░░` 48.9% |
+| SUV | 671,410 | `██████████░░░░░░░░░░` 48.9% |
 | TRUCKS | 285,327 | `████░░░░░░░░░░░░░░░░` 20.8% |
 | SEDAN | 244,559 | `████░░░░░░░░░░░░░░░░` 17.8% |
 | HATCH | 50,531 | `█░░░░░░░░░░░░░░░░░░░` 3.7% |
@@ -146,7 +146,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Gas | 1,218,914 | `██████████████████░░` 91.2% |
+| Gas | 1,218,915 | `██████████████████░░` 91.2% |
 | Hybrid: Gas/Electric | 56,197 | `█░░░░░░░░░░░░░░░░░░░` 4.2% |
 | Electric | 45,420 | `█░░░░░░░░░░░░░░░░░░░` 3.4% |
 | Plug-in Hybrid: Gas/Electric | 16,684 | `░░░░░░░░░░░░░░░░░░░░` 1.2% |
@@ -162,7 +162,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 | --- | --- | --- |
 | TX | 180,182 | `████░░░░░░░░░░░░░░░░` 21.2% |
 | CA | 161,113 | `████░░░░░░░░░░░░░░░░` 19.0% |
-| FL | 148,108 | `███░░░░░░░░░░░░░░░░░` 17.4% |
+| FL | 148,109 | `███░░░░░░░░░░░░░░░░░` 17.4% |
 | NC | 60,288 | `█░░░░░░░░░░░░░░░░░░░` 7.1% |
 | OH | 59,365 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
 | GA | 57,080 | `█░░░░░░░░░░░░░░░░░░░` 6.7% |
