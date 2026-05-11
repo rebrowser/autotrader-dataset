@@ -1,6 +1,6 @@
 # AutoTrader Vehicle Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--05--10-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-1.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
+![Updated](https://img.shields.io/badge/updated-2026--05--11-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-1.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
 
 New, used, and certified pre-owned vehicle listings from AutoTrader with pricing, KBB valuations, dealer info, drivetrain specs, and listing placement data.
 
@@ -115,8 +115,8 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Used | 1,140,930 | `████████████████░░░░` 80.0% |
-| Certified | 177,441 | `██░░░░░░░░░░░░░░░░░░` 12.4% |
+| Used | 1,140,932 | `████████████████░░░░` 80.0% |
+| Certified | 177,439 | `██░░░░░░░░░░░░░░░░░░` 12.4% |
 | New | 106,971 | `██░░░░░░░░░░░░░░░░░░` 7.5% |
 
 </details>
@@ -162,7 +162,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 | --- | --- | --- |
 | TX | 180,182 | `████░░░░░░░░░░░░░░░░` 21.2% |
 | CA | 161,113 | `████░░░░░░░░░░░░░░░░` 19.0% |
-| FL | 148,110 | `███░░░░░░░░░░░░░░░░░` 17.4% |
+| FL | 148,111 | `███░░░░░░░░░░░░░░░░░` 17.4% |
 | NC | 60,288 | `█░░░░░░░░░░░░░░░░░░░` 7.1% |
 | OH | 59,365 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
 | GA | 57,080 | `█░░░░░░░░░░░░░░░░░░░` 6.7% |
