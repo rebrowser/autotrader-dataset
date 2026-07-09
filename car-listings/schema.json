@@ -80,14 +80,14 @@
     "name": "trim",
     "type": "string",
     "description": "Vehicle trim level (e.g., xDrive30i, 3.5T Prestige)",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
     "name": "bodyStyle",
     "type": "string",
     "description": "Body style (e.g., SUV, Sedan, Truck)",
-    "fillRate": 96,
+    "fillRate": 98,
     "premium": false
   },
   {
@@ -122,35 +122,35 @@
     "name": "msrp",
     "type": "float",
     "description": "Manufacturer Suggested Retail Price in USD (for New vehicles)",
-    "fillRate": 7,
+    "fillRate": 6,
     "premium": false
   },
   {
     "name": "dealIndicator",
     "type": "string",
     "description": "KBB deal rating (Great, Good, Fair, High, Overpriced)",
-    "fillRate": 68,
+    "fillRate": 61,
     "premium": false
   },
   {
     "name": "kbbFairPurchasePrice",
     "type": "float",
     "description": "KBB Fair Purchase Price estimate in USD",
-    "fillRate": 98,
+    "fillRate": 96,
     "premium": true
   },
   {
     "name": "kbbFairPriceLow",
     "type": "float",
     "description": "KBB Fair Purchase Price low range in USD",
-    "fillRate": 98,
+    "fillRate": 96,
     "premium": false
   },
   {
     "name": "kbbFairPriceHigh",
     "type": "float",
     "description": "KBB Fair Purchase Price high range in USD",
-    "fillRate": 98,
+    "fillRate": 96,
     "premium": false
   },
   {
@@ -171,7 +171,7 @@
     "name": "interiorColor",
     "type": "string",
     "description": "Interior color name (e.g., Espresso Brown, Blue)",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": false
   },
   {
@@ -199,7 +199,7 @@
     "name": "drivetrain",
     "type": "string",
     "description": "Drivetrain type (e.g., All wheel drive, Front-wheel drive)",
-    "fillRate": 94,
+    "fillRate": 96,
     "premium": false
   },
   {
@@ -227,42 +227,42 @@
     "name": "fuelTypeCode",
     "type": "string",
     "description": "Fuel type code (e.g., G, D, E)",
-    "fillRate": 94,
+    "fillRate": 96,
     "premium": false
   },
   {
     "name": "fuelType",
     "type": "string",
     "description": "Fuel type (e.g., Gasoline, Diesel, Electric)",
-    "fillRate": 94,
+    "fillRate": 96,
     "premium": false
   },
   {
     "name": "fuelTypeGroup",
     "type": "string",
     "description": "Fuel type group (Gas, Diesel, Electric, Hybrid)",
-    "fillRate": 94,
+    "fillRate": 96,
     "premium": false
   },
   {
     "name": "mpgCity",
     "type": "float",
     "description": "City fuel economy in MPG",
-    "fillRate": 80,
+    "fillRate": 79,
     "premium": false
   },
   {
     "name": "mpgHighway",
     "type": "float",
     "description": "Highway fuel economy in MPG",
-    "fillRate": 80,
+    "fillRate": 79,
     "premium": false
   },
   {
     "name": "displacementUOM",
     "type": "float",
     "description": "Engine displacement in liters (e.g., 2.0, 3.5)",
-    "fillRate": 100,
+    "fillRate": 99,
     "premium": false
   },
   {
@@ -304,7 +304,7 @@
     "name": "isNoHagglePrice",
     "type": "bool",
     "description": "No-haggle/fixed price flag",
-    "fillRate": 100,
+    "fillRate": 59,
     "premium": false
   },
   {
@@ -318,14 +318,14 @@
     "name": "moneyBackGuarantee",
     "type": "bool",
     "description": "Money-back guarantee offered",
-    "fillRate": 100,
+    "fillRate": 59,
     "premium": false
   },
   {
     "name": "mainImageIsStock",
     "type": "bool",
     "description": "Main image is stock photo (not actual vehicle)",
-    "fillRate": 100,
+    "fillRate": 59,
     "premium": false
   },
   {
@@ -395,28 +395,28 @@
     "name": "kbbVehicleId",
     "type": "float",
     "description": "KBB vehicle ID for price lookup",
-    "fillRate": 95,
+    "fillRate": 96,
     "premium": false
   },
   {
     "name": "kbbConsumerRatings",
     "type": "float",
     "description": "KBB consumer rating (1-5 scale)",
-    "fillRate": 100,
+    "fillRate": 96,
     "premium": false
   },
   {
     "name": "kbbConsumerReviewCount",
     "type": "float",
     "description": "Number of KBB consumer reviews",
-    "fillRate": 100,
+    "fillRate": 96,
     "premium": false
   },
   {
     "name": "safetyRecallCount",
     "type": "float",
     "description": "Number of open safety recalls",
-    "fillRate": 89,
+    "fillRate": 90,
     "premium": false
   },
   {
