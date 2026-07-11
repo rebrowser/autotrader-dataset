@@ -1,6 +1,6 @@
 # AutoTrader Vehicle Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--07--10-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-2.3M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
+![Updated](https://img.shields.io/badge/updated-2026--07--11-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-2.3M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
 
 New, used, and certified pre-owned vehicle listings from AutoTrader with pricing, KBB valuations, dealer info, drivetrain specs, and listing placement data.
 
@@ -21,7 +21,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 
 
-> **2,295,584** total records from 2025-11-16 to 2026-07-05, **up to 30,000** rows in this sample (1.3% of full dataset).
+> **2,300,561** total records from 2025-11-16 to 2026-07-05, **up to 30,000** rows in this sample (1.3% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](car-listings/chart-growth.svg)
@@ -115,10 +115,10 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Used | 1,845,796 | `████████████████░░░░` 80.4% |
-| Certified | 294,093 | `███░░░░░░░░░░░░░░░░░` 12.8% |
-| New | 141,617 | `█░░░░░░░░░░░░░░░░░░░` 6.2% |
-| Third-Party Certified | 14,078 | `░░░░░░░░░░░░░░░░░░░░` 0.6% |
+| Used | 1,850,050 | `████████████████░░░░` 80.4% |
+| Certified | 294,539 | `███░░░░░░░░░░░░░░░░░` 12.8% |
+| New | 141,855 | `█░░░░░░░░░░░░░░░░░░░` 6.2% |
+| Third-Party Certified | 14,117 | `░░░░░░░░░░░░░░░░░░░░` 0.6% |
 
 </details>
 
@@ -129,14 +129,14 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| SUV | 1,129,439 | `██████████░░░░░░░░░░` 50.4% |
-| TRUCKS | 447,775 | `████░░░░░░░░░░░░░░░░` 20.0% |
-| SEDAN | 389,978 | `███░░░░░░░░░░░░░░░░░` 17.4% |
-| COUPE | 81,875 | `█░░░░░░░░░░░░░░░░░░░` 3.7% |
-| HATCH | 79,673 | `█░░░░░░░░░░░░░░░░░░░` 3.6% |
-| VANS | 54,899 | `░░░░░░░░░░░░░░░░░░░░` 2.4% |
-| CONVERT | 49,503 | `░░░░░░░░░░░░░░░░░░░░` 2.2% |
-| WAGON | 9,926 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
+| SUV | 1,131,952 | `██████████░░░░░░░░░░` 50.4% |
+| TRUCKS | 448,838 | `████░░░░░░░░░░░░░░░░` 20.0% |
+| SEDAN | 390,699 | `███░░░░░░░░░░░░░░░░░` 17.4% |
+| COUPE | 82,129 | `█░░░░░░░░░░░░░░░░░░░` 3.7% |
+| HATCH | 79,819 | `█░░░░░░░░░░░░░░░░░░░` 3.6% |
+| VANS | 55,007 | `░░░░░░░░░░░░░░░░░░░░` 2.4% |
+| CONVERT | 49,654 | `░░░░░░░░░░░░░░░░░░░░` 2.2% |
+| WAGON | 9,945 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
 
 </details>
 
@@ -147,10 +147,10 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Gas | 2,015,537 | `██████████████████░░` 91.2% |
-| Hybrid: Gas/Electric | 93,303 | `█░░░░░░░░░░░░░░░░░░░` 4.2% |
-| Electric | 73,284 | `█░░░░░░░░░░░░░░░░░░░` 3.3% |
-| Plug-in Hybrid: Gas/Electric | 27,051 | `░░░░░░░░░░░░░░░░░░░░` 1.2% |
+| Gas | 2,020,130 | `██████████████████░░` 91.2% |
+| Hybrid: Gas/Electric | 93,491 | `█░░░░░░░░░░░░░░░░░░░` 4.2% |
+| Electric | 73,427 | `█░░░░░░░░░░░░░░░░░░░` 3.3% |
+| Plug-in Hybrid: Gas/Electric | 27,104 | `░░░░░░░░░░░░░░░░░░░░` 1.2% |
 
 </details>
 
@@ -161,16 +161,16 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| TX | 286,607 | `████░░░░░░░░░░░░░░░░` 21.1% |
-| CA | 259,640 | `████░░░░░░░░░░░░░░░░` 19.1% |
-| FL | 235,387 | `███░░░░░░░░░░░░░░░░░` 17.3% |
-| OH | 96,505 | `█░░░░░░░░░░░░░░░░░░░` 7.1% |
-| NC | 95,212 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
-| GA | 90,305 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
-| IL | 77,760 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
-| AZ | 75,483 | `█░░░░░░░░░░░░░░░░░░░` 5.6% |
-| PA | 71,591 | `█░░░░░░░░░░░░░░░░░░░` 5.3% |
-| MI | 70,569 | `█░░░░░░░░░░░░░░░░░░░` 5.2% |
+| TX | 287,241 | `████░░░░░░░░░░░░░░░░` 21.1% |
+| CA | 259,909 | `████░░░░░░░░░░░░░░░░` 19.1% |
+| FL | 235,762 | `███░░░░░░░░░░░░░░░░░` 17.3% |
+| OH | 96,843 | `█░░░░░░░░░░░░░░░░░░░` 7.1% |
+| NC | 95,373 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
+| GA | 90,434 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
+| IL | 77,881 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
+| AZ | 75,545 | `█░░░░░░░░░░░░░░░░░░░` 5.5% |
+| PA | 71,749 | `█░░░░░░░░░░░░░░░░░░░` 5.3% |
+| MI | 70,729 | `█░░░░░░░░░░░░░░░░░░░` 5.2% |
 
 </details>
 
@@ -193,7 +193,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"salePrice","op":"gt","value":0},{"sort":"salePrice DESC"}]`
 
-[Certified Pre-Owned Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/certified-preowned-listings) — 272,053 records
+[Certified Pre-Owned Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/certified-preowned-listings) — 279,921 records
 
 ↳ `[{"field":"listingType","op":"is","value":"Certified"},{"sort":"salePrice DESC"}]`
 
@@ -201,11 +201,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"listingType","op":"is","value":"New"},{"sort":"msrp DESC"}]`
 
-[Used Vehicle Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/used-vehicle-listings) — 1,702,633 records
+[Used Vehicle Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/used-vehicle-listings) — 1,739,508 records
 
 ↳ `[{"field":"listingType","op":"is","value":"Used"},{"sort":"salePrice DESC"}]`
 
-[Premium and Sponsored Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/premium-listings) — 1,226,042 records
+[Premium and Sponsored Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/premium-listings) — 1,226,055 records
 
 ↳ `[{"field":"priority","op":"is","value":"PREMIUM"},{"sort":"salePrice DESC"}]`
 
