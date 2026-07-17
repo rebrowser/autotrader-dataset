@@ -318,7 +318,7 @@
     "name": "moneyBackGuarantee",
     "type": "bool",
     "description": "Money-back guarantee offered",
-    "fillRate": 58,
+    "fillRate": 57,
     "premium": false
   },
   {
@@ -416,7 +416,7 @@
     "name": "safetyRecallCount",
     "type": "float",
     "description": "Number of open safety recalls",
-    "fillRate": 90,
+    "fillRate": 91,
     "premium": false
   },
   {
