@@ -304,7 +304,7 @@
     "name": "isNoHagglePrice",
     "type": "bool",
     "description": "No-haggle/fixed price flag",
-    "fillRate": 57,
+    "fillRate": 56,
     "premium": false
   },
   {
@@ -318,14 +318,14 @@
     "name": "moneyBackGuarantee",
     "type": "bool",
     "description": "Money-back guarantee offered",
-    "fillRate": 57,
+    "fillRate": 56,
     "premium": false
   },
   {
     "name": "mainImageIsStock",
     "type": "bool",
     "description": "Main image is stock photo (not actual vehicle)",
-    "fillRate": 57,
+    "fillRate": 56,
     "premium": false
   },
   {
