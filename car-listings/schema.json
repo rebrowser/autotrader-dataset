@@ -262,7 +262,7 @@
     "name": "displacementUOM",
     "type": "float",
     "description": "Engine displacement in liters (e.g., 2.0, 3.5)",
-    "fillRate": 99,
+    "fillRate": 98,
     "premium": false
   },
   {
