@@ -1,6 +1,6 @@
 # AutoTrader Vehicle Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--08--13-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-2.5M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
+![Updated](https://img.shields.io/badge/updated-2026--08--14-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-2.5M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
 
 New, used, and certified pre-owned vehicle listings from AutoTrader with pricing, KBB valuations, dealer info, drivetrain specs, and listing placement data.
 
@@ -21,7 +21,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 
 
-> **2,489,771** total records from 2025-11-16 to 2026-08-09, **up to 30,000** rows in this sample (1.2% of full dataset).
+> **2,489,798** total records from 2025-11-16 to 2026-08-09, **up to 30,000** rows in this sample (1.2% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](car-listings/chart-growth.svg)
@@ -115,9 +115,9 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Used | 1,998,948 | `████████████████░░░░` 80.3% |
+| Used | 1,998,973 | `████████████████░░░░` 80.3% |
 | Certified | 319,844 | `███░░░░░░░░░░░░░░░░░` 12.8% |
-| New | 153,513 | `█░░░░░░░░░░░░░░░░░░░` 6.2% |
+| New | 153,515 | `█░░░░░░░░░░░░░░░░░░░` 6.2% |
 | Third-Party Certified | 17,466 | `░░░░░░░░░░░░░░░░░░░░` 0.7% |
 
 </details>
@@ -129,13 +129,13 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| SUV | 1,231,583 | `██████████░░░░░░░░░░` 50.5% |
-| TRUCKS | 483,568 | `████░░░░░░░░░░░░░░░░` 19.8% |
-| SEDAN | 422,732 | `███░░░░░░░░░░░░░░░░░` 17.3% |
-| COUPE | 89,228 | `█░░░░░░░░░░░░░░░░░░░` 3.7% |
-| HATCH | 86,112 | `█░░░░░░░░░░░░░░░░░░░` 3.5% |
-| VANS | 59,567 | `░░░░░░░░░░░░░░░░░░░░` 2.4% |
-| CONVERT | 53,848 | `░░░░░░░░░░░░░░░░░░░░` 2.2% |
+| SUV | 1,231,587 | `██████████░░░░░░░░░░` 50.5% |
+| TRUCKS | 483,575 | `████░░░░░░░░░░░░░░░░` 19.8% |
+| SEDAN | 422,734 | `███░░░░░░░░░░░░░░░░░` 17.3% |
+| COUPE | 89,234 | `█░░░░░░░░░░░░░░░░░░░` 3.7% |
+| HATCH | 86,113 | `█░░░░░░░░░░░░░░░░░░░` 3.5% |
+| VANS | 59,568 | `░░░░░░░░░░░░░░░░░░░░` 2.4% |
+| CONVERT | 53,854 | `░░░░░░░░░░░░░░░░░░░░` 2.2% |
 | WAGON | 10,631 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
 
 </details>
@@ -147,7 +147,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Gas | 2,191,398 | `██████████████████░░` 91.2% |
+| Gas | 2,191,425 | `██████████████████░░` 91.2% |
 | Hybrid: Gas/Electric | 102,543 | `█░░░░░░░░░░░░░░░░░░░` 4.3% |
 | Electric | 80,282 | `█░░░░░░░░░░░░░░░░░░░` 3.3% |
 | Plug-in Hybrid: Gas/Electric | 29,179 | `░░░░░░░░░░░░░░░░░░░░` 1.2% |
@@ -161,16 +161,16 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| TX | 311,776 | `████░░░░░░░░░░░░░░░░` 21.2% |
-| CA | 280,612 | `████░░░░░░░░░░░░░░░░` 19.0% |
+| TX | 311,778 | `████░░░░░░░░░░░░░░░░` 21.2% |
+| CA | 280,613 | `████░░░░░░░░░░░░░░░░` 19.0% |
 | FL | 254,431 | `███░░░░░░░░░░░░░░░░░` 17.3% |
-| OH | 106,082 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
+| OH | 106,085 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
 | NC | 103,353 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
-| GA | 97,550 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
-| IL | 83,866 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
-| AZ | 81,789 | `█░░░░░░░░░░░░░░░░░░░` 5.5% |
+| GA | 97,552 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
+| IL | 83,867 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
+| AZ | 81,792 | `█░░░░░░░░░░░░░░░░░░░` 5.5% |
 | PA | 77,480 | `█░░░░░░░░░░░░░░░░░░░` 5.3% |
-| MI | 77,111 | `█░░░░░░░░░░░░░░░░░░░` 5.2% |
+| MI | 77,113 | `█░░░░░░░░░░░░░░░░░░░` 5.2% |
 
 </details>
 
@@ -189,7 +189,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Car Listings
 
 
-[Listings with Pricing Data](https://rebrowser.net/products/datasets/autotrader/car-listings/views/listings-with-pricing) — 2,489,785 records
+[Listings with Pricing Data](https://rebrowser.net/products/datasets/autotrader/car-listings/views/listings-with-pricing) — 2,488,677 records
 
 ↳ `[{"field":"salePrice","op":"gt","value":0},{"sort":"salePrice DESC"}]`
 
@@ -201,7 +201,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"listingType","op":"is","value":"New"},{"sort":"msrp DESC"}]`
 
-[Used Vehicle Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/used-vehicle-listings) — 1,998,143 records
+[Used Vehicle Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/used-vehicle-listings) — 1,998,162 records
 
 ↳ `[{"field":"listingType","op":"is","value":"Used"},{"sort":"salePrice DESC"}]`
 
@@ -286,7 +286,7 @@ This repo is a 1,000-row preview sample. The full dataset is at [rebrowser.net/p
 Doing academic research? You may qualify for free access to a larger slice. See [Free Datasets for Research](https://rebrowser.net/free-datasets-for-research).
 
 On Rebrowser you can:
-- **Filter before you buy** — use the web UI to apply filters on any field and sort by any column. Preview results before purchasing. You only pay for records that match your criteria.
+- **Filter before you buy** — use the web UI to apply documented filters and sortable columns. Preview results before purchasing; paid exports freeze their exact selected identities before billing.
 - **Export in your format** — CSV, JSON, JSONL, or Parquet depending on your plan.
 - **Access via API** — integrate dataset queries into your pipelines and workflows.
 - **Choose your freshness** — plans range from a 14-day lag to real-time data with no delay.
@@ -320,5 +320,4 @@ Rebrowser is an independent data provider and is not affiliated with, endorsed b
 
 
 You can also find this data on [Kaggle](https://www.kaggle.com/datasets/rebrowser/autotrader-dataset), [HuggingFace](https://huggingface.co/datasets/rebrowser/autotrader-dataset), [Zenodo](https://doi.org/10.5281/zenodo.18715857).
-
 
