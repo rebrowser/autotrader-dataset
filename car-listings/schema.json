@@ -199,7 +199,7 @@
     "name": "drivetrain",
     "type": "string",
     "description": "Drivetrain type (e.g., All wheel drive, Front-wheel drive)",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": false
   },
   {
@@ -304,7 +304,7 @@
     "name": "isNoHagglePrice",
     "type": "bool",
     "description": "No-haggle/fixed price flag",
-    "fillRate": 54,
+    "fillRate": 52,
     "premium": false
   },
   {
@@ -318,14 +318,14 @@
     "name": "moneyBackGuarantee",
     "type": "bool",
     "description": "Money-back guarantee offered",
-    "fillRate": 55,
+    "fillRate": 52,
     "premium": false
   },
   {
     "name": "mainImageIsStock",
     "type": "bool",
     "description": "Main image is stock photo (not actual vehicle)",
-    "fillRate": 54,
+    "fillRate": 52,
     "premium": false
   },
   {
@@ -395,7 +395,7 @@
     "name": "kbbVehicleId",
     "type": "float",
     "description": "KBB vehicle ID for price lookup",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": false
   },
   {
