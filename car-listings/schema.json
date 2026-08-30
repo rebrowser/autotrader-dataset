@@ -304,7 +304,7 @@
     "name": "isNoHagglePrice",
     "type": "bool",
     "description": "No-haggle/fixed price flag",
-    "fillRate": 49,
+    "fillRate": 48,
     "premium": false
   },
   {
@@ -325,7 +325,7 @@
     "name": "mainImageIsStock",
     "type": "bool",
     "description": "Main image is stock photo (not actual vehicle)",
-    "fillRate": 49,
+    "fillRate": 48,
     "premium": false
   },
   {
@@ -395,21 +395,21 @@
     "name": "kbbVehicleId",
     "type": "float",
     "description": "KBB vehicle ID for price lookup",
-    "fillRate": 94,
+    "fillRate": 95,
     "premium": false
   },
   {
     "name": "kbbConsumerRatings",
     "type": "float",
     "description": "KBB consumer rating (1-5 scale)",
-    "fillRate": 94,
+    "fillRate": 95,
     "premium": false
   },
   {
     "name": "kbbConsumerReviewCount",
     "type": "float",
     "description": "Number of KBB consumer reviews",
-    "fillRate": 94,
+    "fillRate": 95,
     "premium": false
   },
   {
