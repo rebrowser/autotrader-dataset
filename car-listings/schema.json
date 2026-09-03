@@ -136,21 +136,21 @@
     "name": "kbbFairPurchasePrice",
     "type": "float",
     "description": "KBB Fair Purchase Price estimate in USD",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": true
   },
   {
     "name": "kbbFairPriceLow",
     "type": "float",
     "description": "KBB Fair Purchase Price low range in USD",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": false
   },
   {
     "name": "kbbFairPriceHigh",
     "type": "float",
     "description": "KBB Fair Purchase Price high range in USD",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": false
   },
   {
@@ -304,7 +304,7 @@
     "name": "isNoHagglePrice",
     "type": "bool",
     "description": "No-haggle/fixed price flag",
-    "fillRate": 48,
+    "fillRate": 47,
     "premium": false
   },
   {
@@ -325,7 +325,7 @@
     "name": "mainImageIsStock",
     "type": "bool",
     "description": "Main image is stock photo (not actual vehicle)",
-    "fillRate": 48,
+    "fillRate": 47,
     "premium": false
   },
   {
