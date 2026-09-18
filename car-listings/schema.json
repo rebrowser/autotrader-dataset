@@ -122,7 +122,7 @@
     "name": "msrp",
     "type": "float",
     "description": "Manufacturer Suggested Retail Price in USD (for New vehicles)",
-    "fillRate": 6,
+    "fillRate": 7,
     "premium": false
   },
   {
@@ -304,7 +304,7 @@
     "name": "isNoHagglePrice",
     "type": "bool",
     "description": "No-haggle/fixed price flag",
-    "fillRate": 46,
+    "fillRate": 45,
     "premium": false
   },
   {
@@ -325,7 +325,7 @@
     "name": "mainImageIsStock",
     "type": "bool",
     "description": "Main image is stock photo (not actual vehicle)",
-    "fillRate": 46,
+    "fillRate": 45,
     "premium": false
   },
   {
