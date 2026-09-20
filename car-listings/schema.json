@@ -318,7 +318,7 @@
     "name": "moneyBackGuarantee",
     "type": "bool",
     "description": "Money-back guarantee offered",
-    "fillRate": 46,
+    "fillRate": 45,
     "premium": false
   },
   {
