@@ -136,21 +136,21 @@
     "name": "kbbFairPurchasePrice",
     "type": "float",
     "description": "KBB Fair Purchase Price estimate in USD",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": true
   },
   {
     "name": "kbbFairPriceLow",
     "type": "float",
     "description": "KBB Fair Purchase Price low range in USD",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": false
   },
   {
     "name": "kbbFairPriceHigh",
     "type": "float",
     "description": "KBB Fair Purchase Price high range in USD",
-    "fillRate": 96,
+    "fillRate": 97,
     "premium": false
   },
   {
@@ -318,7 +318,7 @@
     "name": "moneyBackGuarantee",
     "type": "bool",
     "description": "Money-back guarantee offered",
-    "fillRate": 44,
+    "fillRate": 43,
     "premium": false
   },
   {
@@ -402,14 +402,14 @@
     "name": "kbbConsumerRatings",
     "type": "float",
     "description": "KBB consumer rating (1-5 scale)",
-    "fillRate": 95,
+    "fillRate": 96,
     "premium": false
   },
   {
     "name": "kbbConsumerReviewCount",
     "type": "float",
     "description": "Number of KBB consumer reviews",
-    "fillRate": 95,
+    "fillRate": 96,
     "premium": false
   },
   {
