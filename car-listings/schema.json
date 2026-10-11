@@ -423,7 +423,7 @@
     "name": "vhrPreview",
     "type": "string",
     "description": "Vehicle history report preview flags (JSON array: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER, etc.)",
-    "fillRate": 98,
+    "fillRate": 97,
     "premium": false
   },
   {
