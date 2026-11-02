@@ -1,6 +1,6 @@
 # AutoTrader Vehicle Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--11--01-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-3.5M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
+![Updated](https://img.shields.io/badge/updated-2026--11--02-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-3.6M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
 
 New, used, and certified pre-owned vehicle listings from AutoTrader with pricing, KBB valuations, dealer info, drivetrain specs, and listing placement data.
 
@@ -21,7 +21,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 
 
-> **3,526,936** total records from 2025-11-16 to 2026-10-25, **up to 30,000** rows in this sample (0.85% of full dataset).
+> **3,618,268** total records from 2025-11-16 to 2026-10-25, **up to 30,000** rows in this sample (0.83% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](car-listings/chart-growth.svg)
@@ -46,13 +46,13 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 | `mileage` | `float` | 100% | Odometer reading in miles |
 | `salePrice` 🔒 | `float` | 99% | Listed sale price in USD |
 | `msrp` | `float` | 8% | Manufacturer Suggested Retail Price in USD (for New vehicles) |
-| `dealIndicator` | `string` | 59% | KBB deal rating (Great, Good, Fair, High, Overpriced) |
-| `kbbFairPurchasePrice` 🔒 | `float` | 97% | KBB Fair Purchase Price estimate in USD |
-| `kbbFairPriceLow` | `float` | 97% | KBB Fair Purchase Price low range in USD |
-| `kbbFairPriceHigh` | `float` | 97% | KBB Fair Purchase Price high range in USD |
+| `dealIndicator` | `string` | 58% | KBB deal rating (Great, Good, Fair, High, Overpriced) |
+| `kbbFairPurchasePrice` 🔒 | `float` | 96% | KBB Fair Purchase Price estimate in USD |
+| `kbbFairPriceLow` | `float` | 96% | KBB Fair Purchase Price low range in USD |
+| `kbbFairPriceHigh` | `float` | 96% | KBB Fair Purchase Price high range in USD |
 | `exteriorColor` | `string` | 99% | Exterior color name (e.g., Alpine White, Capri Blue) |
 | `exteriorColorSimple` | `string` | 99% | Simplified exterior color (e.g., WHITE, BLUE, BLACK) |
-| `interiorColor` | `string` | 97% | Interior color name (e.g., Espresso Brown, Blue) |
+| `interiorColor` | `string` | 96% | Interior color name (e.g., Espresso Brown, Blue) |
 | `interiorColorSimple` | `string` | 96% | Simplified interior color (e.g., BROWN, BLUE, BLACK) |
 | `engineCode` | `string` | 100% | Engine code (e.g., 4CLDR, 6CLDR) |
 | `engine` | `string` | 100% | Engine description (e.g., 4-Cylinder Turbo, 6-Cylinder Turbo) |
@@ -71,10 +71,10 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 | `isHot` | `bool` | 100% | Hot listing flag (high interest) |
 | `isNewlyListed` | `bool` | 100% | Recently listed flag |
 | `isReducedPrice` | `bool` | 100% | Price recently reduced flag |
-| `isNoHagglePrice` | `bool` | 38% | No-haggle/fixed price flag |
+| `isNoHagglePrice` | `bool` | 37% | No-haggle/fixed price flag |
 | `hasSpecialOffer` | `bool` | 100% | Has special offer/promotion |
-| `moneyBackGuarantee` | `bool` | 39% | Money-back guarantee offered |
-| `mainImageIsStock` | `bool` | 38% | Main image is stock photo (not actual vehicle) |
+| `moneyBackGuarantee` | `bool` | 38% | Money-back guarantee offered |
+| `mainImageIsStock` | `bool` | 37% | Main image is stock photo (not actual vehicle) |
 | `priority` | `string` | 100% | Listing priority/tier (PREMIUM, STANDARD, BASIC) |
 | `sellerId` | `float` | 100% | Seller/dealer ID |
 | `sellerName` 🔒 | `string` | 100% | Seller/dealer name |
@@ -115,10 +115,10 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Used | 2,761,367 | `████████████████░░░░` 78.3% |
-| Certified | 455,816 | `███░░░░░░░░░░░░░░░░░` 12.9% |
-| New | 278,342 | `██░░░░░░░░░░░░░░░░░░` 7.9% |
-| Third-Party Certified | 31,411 | `░░░░░░░░░░░░░░░░░░░░` 0.9% |
+| Used | 2,823,659 | `████████████████░░░░` 78.0% |
+| Certified | 471,160 | `███░░░░░░░░░░░░░░░░░` 13.0% |
+| New | 291,160 | `██░░░░░░░░░░░░░░░░░░` 8.0% |
+| Third-Party Certified | 32,289 | `░░░░░░░░░░░░░░░░░░░░` 0.9% |
 
 </details>
 
@@ -129,14 +129,14 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| SUV | 1,783,073 | `██████████░░░░░░░░░░` 51.3% |
-| TRUCKS | 671,225 | `████░░░░░░░░░░░░░░░░` 19.3% |
-| SEDAN | 584,519 | `███░░░░░░░░░░░░░░░░░` 16.8% |
-| COUPE | 127,344 | `█░░░░░░░░░░░░░░░░░░░` 3.7% |
-| HATCH | 117,579 | `█░░░░░░░░░░░░░░░░░░░` 3.4% |
-| VANS | 99,014 | `█░░░░░░░░░░░░░░░░░░░` 2.8% |
-| CONVERT | 77,363 | `░░░░░░░░░░░░░░░░░░░░` 2.2% |
-| WAGON | 14,319 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
+| SUV | 1,829,437 | `██████████░░░░░░░░░░` 51.3% |
+| TRUCKS | 690,703 | `████░░░░░░░░░░░░░░░░` 19.4% |
+| SEDAN | 597,135 | `███░░░░░░░░░░░░░░░░░` 16.7% |
+| COUPE | 132,795 | `█░░░░░░░░░░░░░░░░░░░` 3.7% |
+| HATCH | 119,810 | `█░░░░░░░░░░░░░░░░░░░` 3.4% |
+| VANS | 103,070 | `█░░░░░░░░░░░░░░░░░░░` 2.9% |
+| CONVERT | 78,261 | `░░░░░░░░░░░░░░░░░░░░` 2.2% |
+| WAGON | 14,557 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
 
 </details>
 
@@ -147,10 +147,10 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Gas | 3,127,907 | `██████████████████░░` 90.9% |
-| Hybrid: Gas/Electric | 150,133 | `█░░░░░░░░░░░░░░░░░░░` 4.4% |
-| Electric | 118,469 | `█░░░░░░░░░░░░░░░░░░░` 3.4% |
-| Plug-in Hybrid: Gas/Electric | 44,146 | `░░░░░░░░░░░░░░░░░░░░` 1.3% |
+| Gas | 3,213,291 | `██████████████████░░` 91.0% |
+| Hybrid: Gas/Electric | 152,054 | `█░░░░░░░░░░░░░░░░░░░` 4.3% |
+| Electric | 121,651 | `█░░░░░░░░░░░░░░░░░░░` 3.4% |
+| Plug-in Hybrid: Gas/Electric | 44,991 | `░░░░░░░░░░░░░░░░░░░░` 1.3% |
 
 </details>
 
@@ -161,16 +161,16 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| TX | 441,000 | `████░░░░░░░░░░░░░░░░` 21.2% |
-| CA | 391,212 | `████░░░░░░░░░░░░░░░░` 18.8% |
-| FL | 355,463 | `███░░░░░░░░░░░░░░░░░` 17.1% |
-| OH | 155,607 | `█░░░░░░░░░░░░░░░░░░░` 7.5% |
-| NC | 144,231 | `█░░░░░░░░░░░░░░░░░░░` 6.9% |
-| GA | 136,533 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
-| IL | 117,007 | `█░░░░░░░░░░░░░░░░░░░` 5.6% |
-| AZ | 113,984 | `█░░░░░░░░░░░░░░░░░░░` 5.5% |
-| PA | 112,632 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
-| MI | 111,321 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
+| TX | 448,832 | `████░░░░░░░░░░░░░░░░` 21.1% |
+| CA | 396,914 | `████░░░░░░░░░░░░░░░░` 18.7% |
+| FL | 364,780 | `███░░░░░░░░░░░░░░░░░` 17.2% |
+| OH | 160,207 | `██░░░░░░░░░░░░░░░░░░` 7.5% |
+| NC | 148,033 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
+| GA | 139,831 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
+| IL | 120,846 | `█░░░░░░░░░░░░░░░░░░░` 5.7% |
+| PA | 116,171 | `█░░░░░░░░░░░░░░░░░░░` 5.5% |
+| AZ | 115,978 | `█░░░░░░░░░░░░░░░░░░░` 5.5% |
+| MI | 114,709 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 
 </details>
 
