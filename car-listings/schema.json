@@ -122,7 +122,7 @@
     "name": "msrp",
     "type": "float",
     "description": "Manufacturer Suggested Retail Price in USD (for New vehicles)",
-    "fillRate": 10,
+    "fillRate": 11,
     "premium": false
   },
   {
@@ -136,21 +136,21 @@
     "name": "kbbFairPurchasePrice",
     "type": "float",
     "description": "KBB Fair Purchase Price estimate in USD",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": true
   },
   {
     "name": "kbbFairPriceLow",
     "type": "float",
     "description": "KBB Fair Purchase Price low range in USD",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
     "name": "kbbFairPriceHigh",
     "type": "float",
     "description": "KBB Fair Purchase Price high range in USD",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
@@ -318,7 +318,7 @@
     "name": "moneyBackGuarantee",
     "type": "bool",
     "description": "Money-back guarantee offered",
-    "fillRate": 32,
+    "fillRate": 31,
     "premium": false
   },
   {
@@ -402,21 +402,21 @@
     "name": "kbbConsumerRatings",
     "type": "float",
     "description": "KBB consumer rating (1-5 scale)",
-    "fillRate": 83,
+    "fillRate": 81,
     "premium": false
   },
   {
     "name": "kbbConsumerReviewCount",
     "type": "float",
     "description": "Number of KBB consumer reviews",
-    "fillRate": 83,
+    "fillRate": 81,
     "premium": false
   },
   {
     "name": "safetyRecallCount",
     "type": "float",
     "description": "Number of open safety recalls",
-    "fillRate": 77,
+    "fillRate": 75,
     "premium": false
   },
   {
@@ -430,21 +430,21 @@
     "name": "options",
     "type": "string",
     "description": "Vehicle options object with subcategories: exterior, interior, safety, mechanical, technology, other",
-    "fillRate": 85,
+    "fillRate": 83,
     "premium": false
   },
   {
     "name": "optionsCount",
     "type": "float",
     "description": "Total number of options across all categories",
-    "fillRate": 85,
+    "fillRate": 83,
     "premium": false
   },
   {
     "name": "description",
     "type": "string",
     "description": "Full marketing description text (HTML tags stripped except br)",
-    "fillRate": 86,
+    "fillRate": 84,
     "premium": false
   },
   {
