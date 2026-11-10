@@ -423,7 +423,7 @@
     "name": "vhrPreview",
     "type": "string",
     "description": "Vehicle history report preview flags (JSON array: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER, etc.)",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
@@ -444,7 +444,7 @@
     "name": "description",
     "type": "string",
     "description": "Full marketing description text (HTML tags stripped except br)",
-    "fillRate": 84,
+    "fillRate": 83,
     "premium": false
   },
   {
