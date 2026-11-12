@@ -115,7 +115,7 @@
     "name": "salePrice",
     "type": "float",
     "description": "Listed sale price in USD",
-    "fillRate": 98,
+    "fillRate": 97,
     "premium": true
   },
   {
@@ -129,7 +129,7 @@
     "name": "dealIndicator",
     "type": "string",
     "description": "KBB deal rating (Great, Good, Fair, High, Overpriced)",
-    "fillRate": 53,
+    "fillRate": 52,
     "premium": false
   },
   {
@@ -178,7 +178,7 @@
     "name": "interiorColorSimple",
     "type": "string",
     "description": "Simplified interior color (e.g., BROWN, BLUE, BLACK)",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
@@ -395,28 +395,28 @@
     "name": "kbbVehicleId",
     "type": "float",
     "description": "KBB vehicle ID for price lookup",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
     "name": "kbbConsumerRatings",
     "type": "float",
     "description": "KBB consumer rating (1-5 scale)",
-    "fillRate": 81,
+    "fillRate": 78,
     "premium": false
   },
   {
     "name": "kbbConsumerReviewCount",
     "type": "float",
     "description": "Number of KBB consumer reviews",
-    "fillRate": 81,
+    "fillRate": 78,
     "premium": false
   },
   {
     "name": "safetyRecallCount",
     "type": "float",
     "description": "Number of open safety recalls",
-    "fillRate": 75,
+    "fillRate": 72,
     "premium": false
   },
   {
@@ -430,21 +430,21 @@
     "name": "options",
     "type": "string",
     "description": "Vehicle options object with subcategories: exterior, interior, safety, mechanical, technology, other",
-    "fillRate": 83,
+    "fillRate": 80,
     "premium": false
   },
   {
     "name": "optionsCount",
     "type": "float",
     "description": "Total number of options across all categories",
-    "fillRate": 83,
+    "fillRate": 80,
     "premium": false
   },
   {
     "name": "description",
     "type": "string",
     "description": "Full marketing description text (HTML tags stripped except br)",
-    "fillRate": 83,
+    "fillRate": 81,
     "premium": false
   },
   {
