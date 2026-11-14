@@ -304,7 +304,7 @@
     "name": "isNoHagglePrice",
     "type": "bool",
     "description": "No-haggle/fixed price flag",
-    "fillRate": 31,
+    "fillRate": 30,
     "premium": false
   },
   {
@@ -318,14 +318,14 @@
     "name": "moneyBackGuarantee",
     "type": "bool",
     "description": "Money-back guarantee offered",
-    "fillRate": 31,
+    "fillRate": 30,
     "premium": false
   },
   {
     "name": "mainImageIsStock",
     "type": "bool",
     "description": "Main image is stock photo (not actual vehicle)",
-    "fillRate": 31,
+    "fillRate": 30,
     "premium": false
   },
   {
@@ -388,7 +388,7 @@
     "name": "sellerContractLevel",
     "type": "string",
     "description": "Seller contract level (PARTNER, STANDARD, etc.)",
-    "fillRate": 96,
+    "fillRate": 95,
     "premium": false
   },
   {
@@ -402,21 +402,21 @@
     "name": "kbbConsumerRatings",
     "type": "float",
     "description": "KBB consumer rating (1-5 scale)",
-    "fillRate": 78,
+    "fillRate": 76,
     "premium": false
   },
   {
     "name": "kbbConsumerReviewCount",
     "type": "float",
     "description": "Number of KBB consumer reviews",
-    "fillRate": 78,
+    "fillRate": 76,
     "premium": false
   },
   {
     "name": "safetyRecallCount",
     "type": "float",
     "description": "Number of open safety recalls",
-    "fillRate": 72,
+    "fillRate": 71,
     "premium": false
   },
   {
@@ -430,35 +430,35 @@
     "name": "options",
     "type": "string",
     "description": "Vehicle options object with subcategories: exterior, interior, safety, mechanical, technology, other",
-    "fillRate": 80,
+    "fillRate": 78,
     "premium": false
   },
   {
     "name": "optionsCount",
     "type": "float",
     "description": "Total number of options across all categories",
-    "fillRate": 80,
+    "fillRate": 78,
     "premium": false
   },
   {
     "name": "description",
     "type": "string",
     "description": "Full marketing description text (HTML tags stripped except br)",
-    "fillRate": 81,
+    "fillRate": 79,
     "premium": false
   },
   {
     "name": "images",
     "type": "string",
     "description": "All listing image URLs as JSON array",
-    "fillRate": 94,
+    "fillRate": 93,
     "premium": true
   },
   {
     "name": "imagesCount",
     "type": "float",
     "description": "Number of listing images",
-    "fillRate": 94,
+    "fillRate": 93,
     "premium": false
   },
   {
