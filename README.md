@@ -1,6 +1,6 @@
 # AutoTrader Vehicle Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--11--15-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-4.5M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
+![Updated](https://img.shields.io/badge/updated-2026--11--16-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-4.5M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/autotrader)
 
 New, used, and certified pre-owned vehicle listings from AutoTrader with pricing, KBB valuations, dealer info, drivetrain specs, and listing placement data.
 
@@ -21,7 +21,7 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 
 
-> **4,485,529** total records from 2025-11-16 to 2026-11-08, **up to 30,000** rows in this sample (0.67% of full dataset).
+> **4,543,141** total records from 2025-11-16 to 2026-11-15, **up to 30,000** rows in this sample (0.66% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](car-listings/chart-growth.svg)
@@ -46,10 +46,10 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 | `mileage` | `float` | 100% | Odometer reading in miles |
 | `salePrice` 🔒 | `float` | 97% | Listed sale price in USD |
 | `msrp` | `float` | 11% | Manufacturer Suggested Retail Price in USD (for New vehicles) |
-| `dealIndicator` | `string` | 52% | KBB deal rating (Great, Good, Fair, High, Overpriced) |
-| `kbbFairPurchasePrice` 🔒 | `float` | 95% | KBB Fair Purchase Price estimate in USD |
-| `kbbFairPriceLow` | `float` | 95% | KBB Fair Purchase Price low range in USD |
-| `kbbFairPriceHigh` | `float` | 95% | KBB Fair Purchase Price high range in USD |
+| `dealIndicator` | `string` | 51% | KBB deal rating (Great, Good, Fair, High, Overpriced) |
+| `kbbFairPurchasePrice` 🔒 | `float` | 94% | KBB Fair Purchase Price estimate in USD |
+| `kbbFairPriceLow` | `float` | 94% | KBB Fair Purchase Price low range in USD |
+| `kbbFairPriceHigh` | `float` | 94% | KBB Fair Purchase Price high range in USD |
 | `exteriorColor` | `string` | 99% | Exterior color name (e.g., Alpine White, Capri Blue) |
 | `exteriorColorSimple` | `string` | 98% | Simplified exterior color (e.g., WHITE, BLUE, BLACK) |
 | `interiorColor` | `string` | 96% | Interior color name (e.g., Espresso Brown, Blue) |
@@ -85,13 +85,13 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 | `isPrivateSeller` | `bool` | 100% | Whether seller is a private seller (true) or dealer (false) |
 | `sellerContractLevel` | `string` | 95% | Seller contract level (PARTNER, STANDARD, etc.) |
 | `kbbVehicleId` | `float` | 95% | KBB vehicle ID for price lookup |
-| `kbbConsumerRatings` | `float` | 76% | KBB consumer rating (1-5 scale) |
-| `kbbConsumerReviewCount` | `float` | 76% | Number of KBB consumer reviews |
-| `safetyRecallCount` | `float` | 71% | Number of open safety recalls |
+| `kbbConsumerRatings` | `float` | 75% | KBB consumer rating (1-5 scale) |
+| `kbbConsumerReviewCount` | `float` | 75% | Number of KBB consumer reviews |
+| `safetyRecallCount` | `float` | 70% | Number of open safety recalls |
 | `vhrPreview` | `string` | 95% | Vehicle history report preview flags (JSON array: NO_SALVAGE_TITLE, NO_ACCIDENTS_REPORTED, ONE_OWNER, etc.) |
-| `options` | `string` | 78% | Vehicle options object with subcategories: exterior, interior, safety, mechanical, technology, other |
-| `optionsCount` | `float` | 78% | Total number of options across all categories |
-| `description` | `string` | 79% | Full marketing description text (HTML tags stripped except br) |
+| `options` | `string` | 77% | Vehicle options object with subcategories: exterior, interior, safety, mechanical, technology, other |
+| `optionsCount` | `float` | 77% | Total number of options across all categories |
+| `description` | `string` | 78% | Full marketing description text (HTML tags stripped except br) |
 | `images` 🔒 | `string` | 93% | All listing image URLs as JSON array |
 | `imagesCount` | `float` | 93% | Number of listing images |
 | `sellerAddress` | `string` | 97% | Seller address line 1 |
@@ -115,10 +115,10 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Used | 3,361,095 | `███████████████░░░░░` 74.9% |
-| Certified | 587,163 | `███░░░░░░░░░░░░░░░░░` 13.1% |
-| New | 497,361 | `██░░░░░░░░░░░░░░░░░░` 11.1% |
-| Third-Party Certified | 39,910 | `░░░░░░░░░░░░░░░░░░░░` 0.9% |
+| Used | 3,404,810 | `███████████████░░░░░` 74.9% |
+| Certified | 591,438 | `███░░░░░░░░░░░░░░░░░` 13.0% |
+| New | 506,636 | `██░░░░░░░░░░░░░░░░░░` 11.2% |
+| Third-Party Certified | 40,257 | `░░░░░░░░░░░░░░░░░░░░` 0.9% |
 
 </details>
 
@@ -129,14 +129,14 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| SUV | 2,333,257 | `███████████░░░░░░░░░` 52.6% |
-| TRUCKS | 841,302 | `████░░░░░░░░░░░░░░░░` 19.0% |
-| SEDAN | 727,937 | `███░░░░░░░░░░░░░░░░░` 16.4% |
-| COUPE | 148,947 | `█░░░░░░░░░░░░░░░░░░░` 3.4% |
-| HATCH | 147,465 | `█░░░░░░░░░░░░░░░░░░░` 3.3% |
-| VANS | 128,557 | `█░░░░░░░░░░░░░░░░░░░` 2.9% |
-| CONVERT | 87,729 | `░░░░░░░░░░░░░░░░░░░░` 2.0% |
-| WAGON | 17,830 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
+| SUV | 2,370,533 | `███████████░░░░░░░░░` 52.8% |
+| TRUCKS | 847,821 | `████░░░░░░░░░░░░░░░░` 18.9% |
+| SEDAN | 737,914 | `███░░░░░░░░░░░░░░░░░` 16.4% |
+| COUPE | 149,554 | `█░░░░░░░░░░░░░░░░░░░` 3.3% |
+| HATCH | 148,880 | `█░░░░░░░░░░░░░░░░░░░` 3.3% |
+| VANS | 129,956 | `█░░░░░░░░░░░░░░░░░░░` 2.9% |
+| CONVERT | 88,088 | `░░░░░░░░░░░░░░░░░░░░` 2.0% |
+| WAGON | 17,890 | `░░░░░░░░░░░░░░░░░░░░` 0.4% |
 
 </details>
 
@@ -147,10 +147,10 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| Gas | 3,976,080 | `██████████████████░░` 90.4% |
-| Hybrid: Gas/Electric | 209,951 | `█░░░░░░░░░░░░░░░░░░░` 4.8% |
-| Electric | 156,469 | `█░░░░░░░░░░░░░░░░░░░` 3.6% |
-| Plug-in Hybrid: Gas/Electric | 56,747 | `░░░░░░░░░░░░░░░░░░░░` 1.3% |
+| Gas | 4,024,281 | `██████████████████░░` 90.3% |
+| Hybrid: Gas/Electric | 215,489 | `█░░░░░░░░░░░░░░░░░░░` 4.8% |
+| Electric | 159,309 | `█░░░░░░░░░░░░░░░░░░░` 3.6% |
+| Plug-in Hybrid: Gas/Electric | 57,780 | `░░░░░░░░░░░░░░░░░░░░` 1.3% |
 
 </details>
 
@@ -161,16 +161,16 @@ AutoTrader vehicle listings with make, model, trim, body style, mileage, MSRP, K
 
 | Value | Count | Share |
 | --- | --- | --- |
-| TX | 534,474 | `████░░░░░░░░░░░░░░░░` 20.6% |
-| CA | 466,489 | `████░░░░░░░░░░░░░░░░` 18.0% |
-| FL | 454,472 | `████░░░░░░░░░░░░░░░░` 17.5% |
-| OH | 201,500 | `██░░░░░░░░░░░░░░░░░░` 7.8% |
-| NC | 180,232 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
-| GA | 170,637 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
-| IL | 154,260 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
-| PA | 150,587 | `█░░░░░░░░░░░░░░░░░░░` 5.8% |
-| MI | 142,221 | `█░░░░░░░░░░░░░░░░░░░` 5.5% |
-| AZ | 136,239 | `█░░░░░░░░░░░░░░░░░░░` 5.3% |
+| TX | 540,600 | `████░░░░░░░░░░░░░░░░` 20.6% |
+| CA | 471,353 | `████░░░░░░░░░░░░░░░░` 18.0% |
+| FL | 460,497 | `████░░░░░░░░░░░░░░░░` 17.6% |
+| OH | 203,969 | `██░░░░░░░░░░░░░░░░░░` 7.8% |
+| NC | 182,495 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
+| GA | 172,974 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
+| IL | 156,441 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
+| PA | 152,927 | `█░░░░░░░░░░░░░░░░░░░` 5.8% |
+| MI | 143,741 | `█░░░░░░░░░░░░░░░░░░░` 5.5% |
+| AZ | 137,703 | `█░░░░░░░░░░░░░░░░░░░` 5.3% |
 
 </details>
 
@@ -189,19 +189,19 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Car Listings
 
 
-[Listings with Pricing Data](https://rebrowser.net/products/datasets/autotrader/car-listings/views/listings-with-pricing) — 3,578,806 records
+[Listings with Pricing Data](https://rebrowser.net/products/datasets/autotrader/car-listings/views/listings-with-pricing) — 3,578,804 records
 
 ↳ `[{"field":"salePrice","op":"gt","value":0},{"sort":"salePrice DESC"}]`
 
-[Certified Pre-Owned Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/certified-preowned-listings) — 477,217 records
+[Certified Pre-Owned Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/certified-preowned-listings) — 477,257 records
 
 ↳ `[{"field":"listingType","op":"is","value":"Certified"},{"sort":"salePrice DESC"}]`
 
-[New Vehicle Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/new-vehicle-listings) — 291,180 records
+[New Vehicle Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/new-vehicle-listings) — 291,201 records
 
 ↳ `[{"field":"listingType","op":"is","value":"New"},{"sort":"msrp DESC"}]`
 
-[Used Vehicle Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/used-vehicle-listings) — 2,816,936 records
+[Used Vehicle Listings](https://rebrowser.net/products/datasets/autotrader/car-listings/views/used-vehicle-listings) — 2,816,872 records
 
 ↳ `[{"field":"listingType","op":"is","value":"Used"},{"sort":"salePrice DESC"}]`
 

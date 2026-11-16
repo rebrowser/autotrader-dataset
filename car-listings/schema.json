@@ -129,28 +129,28 @@
     "name": "dealIndicator",
     "type": "string",
     "description": "KBB deal rating (Great, Good, Fair, High, Overpriced)",
-    "fillRate": 52,
+    "fillRate": 51,
     "premium": false
   },
   {
     "name": "kbbFairPurchasePrice",
     "type": "float",
     "description": "KBB Fair Purchase Price estimate in USD",
-    "fillRate": 95,
+    "fillRate": 94,
     "premium": true
   },
   {
     "name": "kbbFairPriceLow",
     "type": "float",
     "description": "KBB Fair Purchase Price low range in USD",
-    "fillRate": 95,
+    "fillRate": 94,
     "premium": false
   },
   {
     "name": "kbbFairPriceHigh",
     "type": "float",
     "description": "KBB Fair Purchase Price high range in USD",
-    "fillRate": 95,
+    "fillRate": 94,
     "premium": false
   },
   {
@@ -402,21 +402,21 @@
     "name": "kbbConsumerRatings",
     "type": "float",
     "description": "KBB consumer rating (1-5 scale)",
-    "fillRate": 76,
+    "fillRate": 75,
     "premium": false
   },
   {
     "name": "kbbConsumerReviewCount",
     "type": "float",
     "description": "Number of KBB consumer reviews",
-    "fillRate": 76,
+    "fillRate": 75,
     "premium": false
   },
   {
     "name": "safetyRecallCount",
     "type": "float",
     "description": "Number of open safety recalls",
-    "fillRate": 71,
+    "fillRate": 70,
     "premium": false
   },
   {
@@ -430,21 +430,21 @@
     "name": "options",
     "type": "string",
     "description": "Vehicle options object with subcategories: exterior, interior, safety, mechanical, technology, other",
-    "fillRate": 78,
+    "fillRate": 77,
     "premium": false
   },
   {
     "name": "optionsCount",
     "type": "float",
     "description": "Total number of options across all categories",
-    "fillRate": 78,
+    "fillRate": 77,
     "premium": false
   },
   {
     "name": "description",
     "type": "string",
     "description": "Full marketing description text (HTML tags stripped except br)",
-    "fillRate": 79,
+    "fillRate": 78,
     "premium": false
   },
   {
