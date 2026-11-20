@@ -115,42 +115,42 @@
     "name": "salePrice",
     "type": "float",
     "description": "Listed sale price in USD",
-    "fillRate": 97,
+    "fillRate": 96,
     "premium": true
   },
   {
     "name": "msrp",
     "type": "float",
     "description": "Manufacturer Suggested Retail Price in USD (for New vehicles)",
-    "fillRate": 11,
+    "fillRate": 12,
     "premium": false
   },
   {
     "name": "dealIndicator",
     "type": "string",
     "description": "KBB deal rating (Great, Good, Fair, High, Overpriced)",
-    "fillRate": 51,
+    "fillRate": 49,
     "premium": false
   },
   {
     "name": "kbbFairPurchasePrice",
     "type": "float",
     "description": "KBB Fair Purchase Price estimate in USD",
-    "fillRate": 94,
+    "fillRate": 93,
     "premium": true
   },
   {
     "name": "kbbFairPriceLow",
     "type": "float",
     "description": "KBB Fair Purchase Price low range in USD",
-    "fillRate": 94,
+    "fillRate": 93,
     "premium": false
   },
   {
     "name": "kbbFairPriceHigh",
     "type": "float",
     "description": "KBB Fair Purchase Price high range in USD",
-    "fillRate": 94,
+    "fillRate": 93,
     "premium": false
   },
   {
@@ -304,7 +304,7 @@
     "name": "isNoHagglePrice",
     "type": "bool",
     "description": "No-haggle/fixed price flag",
-    "fillRate": 29,
+    "fillRate": 28,
     "premium": false
   },
   {
@@ -318,14 +318,14 @@
     "name": "moneyBackGuarantee",
     "type": "bool",
     "description": "Money-back guarantee offered",
-    "fillRate": 29,
+    "fillRate": 28,
     "premium": false
   },
   {
     "name": "mainImageIsStock",
     "type": "bool",
     "description": "Main image is stock photo (not actual vehicle)",
-    "fillRate": 29,
+    "fillRate": 28,
     "premium": false
   },
   {
@@ -395,28 +395,28 @@
     "name": "kbbVehicleId",
     "type": "float",
     "description": "KBB vehicle ID for price lookup",
-    "fillRate": 95,
+    "fillRate": 94,
     "premium": false
   },
   {
     "name": "kbbConsumerRatings",
     "type": "float",
     "description": "KBB consumer rating (1-5 scale)",
-    "fillRate": 72,
+    "fillRate": 69,
     "premium": false
   },
   {
     "name": "kbbConsumerReviewCount",
     "type": "float",
     "description": "Number of KBB consumer reviews",
-    "fillRate": 72,
+    "fillRate": 69,
     "premium": false
   },
   {
     "name": "safetyRecallCount",
     "type": "float",
     "description": "Number of open safety recalls",
-    "fillRate": 67,
+    "fillRate": 64,
     "premium": false
   },
   {
@@ -430,35 +430,35 @@
     "name": "options",
     "type": "string",
     "description": "Vehicle options object with subcategories: exterior, interior, safety, mechanical, technology, other",
-    "fillRate": 74,
+    "fillRate": 71,
     "premium": false
   },
   {
     "name": "optionsCount",
     "type": "float",
     "description": "Total number of options across all categories",
-    "fillRate": 74,
+    "fillRate": 71,
     "premium": false
   },
   {
     "name": "description",
     "type": "string",
     "description": "Full marketing description text (HTML tags stripped except br)",
-    "fillRate": 75,
+    "fillRate": 71,
     "premium": false
   },
   {
     "name": "images",
     "type": "string",
     "description": "All listing image URLs as JSON array",
-    "fillRate": 92,
+    "fillRate": 91,
     "premium": true
   },
   {
     "name": "imagesCount",
     "type": "float",
     "description": "Number of listing images",
-    "fillRate": 92,
+    "fillRate": 91,
     "premium": false
   },
   {
